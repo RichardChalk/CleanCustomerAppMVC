@@ -1,0 +1,17 @@
+﻿@model List<CustomerViewModel>
+
+<h2>Kunder</h2>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+    </tr>
+    @foreach (var customer in Model)
+    {
+        <tr>
+            <td>@customer.Id</td>
+            <td>@customer.Name</td>
+        </tr>
+    }
+</table>
