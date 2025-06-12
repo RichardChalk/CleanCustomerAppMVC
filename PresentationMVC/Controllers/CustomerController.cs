@@ -15,6 +15,10 @@ namespace PresentationMVC.Controllers
             // Seed några kunder (demo)
             _service.CreateCustomer("Anna");
             _service.CreateCustomer("Erik");
+            _service.CreateCustomer("Richard");
+            _service.CreateCustomer("Linda");
+            _service.CreateCustomer("Lucas");
+            _service.CreateCustomer("Alicia");
         }
 
         public IActionResult Index()
